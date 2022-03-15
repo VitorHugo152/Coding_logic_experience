@@ -1,0 +1,10 @@
+algoritmo "Resultado_MEDIA"
+ var
+ N1,N2:inteiro
+ MEDIA: real
+ inteiro
+ escreval ("Digite a primeira nota:")
+ leia (N1)
+ escreval    ("Digite a segunda nota:")
+ 
+ fimalgoritmo
