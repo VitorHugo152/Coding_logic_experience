@@ -1,0 +1,21 @@
+algoritmo "CONDICIONA_ANINHADO"
+
+var
+  N1,N2 : real
+  MEDIA : real
+inicio
+  escreval ("Digite a primeira nota:")
+  leia (N1)
+  escreval ("Digite a segunda nota")
+  leia (N2)
+  MEDIA <- (N1 + N2) / 2
+  se (MEDIA >= 7) entao
+     escreval ("Aprovado")
+  senao
+       se (MEDIA >= 5) entao
+          escreval ("Recuperação")
+        senao
+             escreval ("Reprovado")
+         fimse
+   fimse
+fimalgoritmo

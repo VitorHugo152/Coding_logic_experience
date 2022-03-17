@@ -2,15 +2,15 @@ algoritmo "Resultado_MEDIA"
  var
     N1,N2:inteiro
     MEDIA: real
- inteiro
+ inicio
         escreval ("Digite a primeira nota:")
          leia (N1)
          escreval    ("Digite a segunda nota:")
          leia (N2)
-         MEDIA <- (N1 + N2) /2
+         MEDIA <- (N1 + N2) / 2
          se (MEDIA >= 7) entao
+            escreval ("Aluno aprovado")
+            senao
             escreva ("Aluno aprovado")
             fimse
-            escreva ("Aluno aprovado")
 fimalgoritmo
-             
